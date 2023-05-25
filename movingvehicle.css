@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-color: gray;
+}
+.cloud{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.house{
+    position: relative;
+     left: -1px; 
+}
+.grass{
+    position: relative;
+    top: -35px;
+    right: 150px;
+}
+.road{
+    position: absolute;
+    top: 300px;
+    left: -1px;
+}
+ .road2{
+    position: absolute;
+    top: 500px;
+    left: -1px;
+ }
+ .birds2{
+    position: absolute;
+     top: 20px;
+     left: -1px;
+      animation: birds 10s ease-out  infinite; 
+    }
+    @keyframes birds{
+       0%{
+           left: 0px;
+       }
+       100%{
+           
+           left: 110%;
+       }
+   } 
+.aero{
+    position: absolute;
+    top: 5px;
+    right: -3px;
+    animation: aero 8s ease-out
+    infinite;
+}
+    @keyframes aero {
+        0%{
+            right: 0px;
+        }
+        100%{
+            right: 100%;
+        }
+        
+    }
+.helicopter{
+    position: absolute;
+    top: 1px;
+    right: -1px;
+    animation: heli 4s ease-in infinite;
+}
+@keyframes heli {
+    0%{
+        right: 0px;
+    }
+    100%{
+        right: 100%;
+        
+    }
+}
+ .girl{
+    position: absolute;
+    top: 150px;
+    right: -1px;
+    animation: girl 15s ease-out infinite;
+ }
+    @keyframes girl {
+        0%{
+            right: 0px;
+        }
+        100%{
+            right: 110%;
+        }
+    }
+ .boy{
+    position: absolute;
+    top: 130px;
+    left: -1px;
+    animation: boy 11s ease-out infinite;
+ }
+     @keyframes boy {
+         0%{
+        left: 0px;
+        }
+        100%{
+        left: 110%;
+        }
+}
+.bike{
+    position: absolute;
+    top: 210px;
+    right: -1px;
+    animation: bike 4s ease-out infinite;
+}
+     @keyframes bike {
+        0%{
+            right: 0px;
+        }
+        100%{
+            right: 110%;
+        }
+    
+ }
+ .car{
+    position: absolute;
+    top: 280px;
+    right: -1px;
+    animation: car 9s ease-out infinite;
+}
+     @keyframes car {
+        0%{
+            right: 0px;
+        }
+        100%{
+            right: 110%;
+        }
+    
+ }
+ .truck{
+    position: absolute;
+    right: -1px;
+    top: 280px;
+    animation: truck 6s ease-out infinite;
+ }
+    @keyframes truck {
+        0%{
+            right: 0px;
+        }
+        100%{
+            right: 110%;
+        } 
+    }
+ .taxi{
+    position: absolute;
+    right: -1px;
+    top: 330px;
+    animation: taxi 9s ease-out infinite;
+ }
+ @keyframes taxi {
+    0%{
+        right: 0px;
+    }
+    100%{
+        right: 110%;
+    } 
+ }
+ .lorry{
+    position: absolute;
+    left: -1px;
+    top: 430px;
+    animation: lorry 5s ease-out infinite;
+ }
+    @keyframes lorry {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 100%;
+        }
+    }
+ .bic {
+    position: absolute;
+    left: -1px;
+    top: 550px;
+    animation: bic 13s ease-out infinite;
+ }
+    @keyframes bic {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 100%;
+        }
+    }
+.light1{
+        position: absolute;
+        top: 290px;
+        left: 100px;
+    }
+ .light2{
+    position: absolute;
+    top: 290px;
+    left: 500px;
+ }
+ .light3{
+    position: absolute;
+    top: 290px;
+    left: 1000px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* div{
+    animation-name: ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+} 
+.ill{
+    height: 100%;
+    width: 100%;
+    margin-top: -17%;    
+}
+.road1{
+    height: 135px;
+    width: 1355px;  
+}
+.grass{
+    height: 40px;
+    width: 1355px;
+    margin-top: -3%;
+    margin-left: -0.1%;
+}
+.sky{
+    background-image: cover;
+    height: 250px;
+    width: 1355px;
+    margin-top: -3%;
+    
+}
+.bridge{
+    background-color: grey;
+    height: 100px;
+    width: 1355px;
+    margin-top: -3%;   
+}
+.light{
+    height: 200px;
+    width: 200px;
+    margin-top: -8%;
+    margin-left: 13%;
+}
+.road2{
+    height: 110px;
+    width: 1355px;  
+}
+/* @keyframes sky {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        left: 100%;
+        top100%
+    }
+} */
+
+
+
